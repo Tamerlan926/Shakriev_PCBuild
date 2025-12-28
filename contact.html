@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ibragim_PCBuild</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="#">О нас</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <section class="info">
+        <div class="content">
+            <h2>Свяжитесь с нами</h2>
+            <p>Есть вопросы по сборке ПК? Напишите нам — мы поможем подобрать оптимальную конфигурацию под ваши задачи.</p>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="container">
+            <div class="grid">
+                <div class="info2">
+                    <h3>Контактная информация</h3>
+                    
+                    <div class="item">
+                        <div class="details">
+                            <h4>Email</h4>
+                            <p>order@pcbuild.pro</p>
+                            <p class="sub">Для заказов и консультаций</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="details">
+                            <h4>Телефон</h4>
+                            <p>+7 (800) 555-35-35</p>
+                            <p class="sub">Бесплатный звонок по России</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="details">
+                            <h4>Адрес</h4>
+                            <p>Ингушетия ул.Заводская 8</p>
+                            <p class="sub">Самовывоз и сборка на месте</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="details">
+                            <h4>Часы работы</h4>
+                            <p>Пн-Пт: 9:00-21:00</p>
+                            <p>Сб-Вс: 10:00-18:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form2">
+                    <h3>Написать нам</h3>
+                    <form class="order">
+                        <div class="grid">
+                            <div class="group">
+                                <label for="name">Ваше имя *</label>
+                                <input type="text" id="name" name="name" required placeholder="Иван Иванов">
+                            </div>
+                            
+                            <div class="group">
+                                <label for="contact-email">Email *</label>
+                                <input type="email" id="contact-email" name="email" required placeholder="example@mail.ru">
+                            </div>
+                            
+                            <div class="group width">
+                                <label for="subject">Тема сообщения</label>
+                                <select id="subject" name="subject">
+                                    <option value="" selected>Выберите тему</option>
+                                    <option value="order">Заказ сборки</option>
+                                    <option value="consult">Консультация</option>
+                                    <option value="support">Техподдержка</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                            </div>
+                            
+                            <div class="group width">
+                                <label for="message">Сообщение *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Опишите ваш вопрос или задачу..."></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="form">
+                            <button type="submit" class="submit">Отправить сообщение</button>
+                            <p class="note">Мы ответим вам в течение 2 рабочих часов</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

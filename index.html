@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сборки ПК</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shakriev_PCBuild</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="#">О нас</a>
+            <a href="contact.html">Контакты</a>
+        </nav>
+    </header>
+
+    <section class="info">
+        <div class="info2">
+            <h2>Сборки ПК</h2>
+            <p>Соберем для вас производительный компьютер по вашим требованиям и бюджету. Качественные компоненты, профессиональная сборка и тестирование.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h3>Готовые сборки</h3>
+        <div class="services">
+
+            <div class="card">
+                <h4>Игровой ПК</h4>
+                <p>Мощные сборки для комфортного гейминга в любые проекты.</p>
+            </div>
+
+            <div class="card">
+                <h4>Рабочая станция</h4>
+                <p>Для дизайнеров, программистов и специалистов.</p>
+            </div>
+
+            <div class="card">
+                <h4>Офисный ПК</h4>
+                <p>Надежные и экономичные решения для офиса.</p>
+            </div>
+
+            <div class="card">
+                <h4>Монтажный ПК</h4>
+                <p>Для обработки видео, звука и графики.</p>
+            </div>
+        </div>
+      </section>  
+
+
+
+        <section class="section1">
+        <div class="container">
+            <h3>Собери свой ПК</h3>
+            <p class="subtitle">Опишите ваши требования и мы соберем идеальный компьютер специально для вас</p>
+            <form class="order">
+                <div class="grid">
+                    <div class="group">
+                        <label for="budget">Бюджет (₽)</label>
+                        <select id="budget" name="budget" required>
+                            <option value="" disabled selected>Выберите бюджет</option>
+                            <option value="50-70">50,000 - 70,000 ₽</option>
+                            <option value="70-100">70,000 - 100,000 ₽</option>
+                            <option value="100-150">100,000 - 150,000 ₽</option>
+                            <option value="150+">150,000+ ₽</option>
+                        </select>
+                    </div>
+                    
+                    <div class="group">
+                        <label for="purpose">Назначение ПК</label>
+                        <select id="purpose" name="purpose" required>
+                            <option value="" disabled selected>Для чего нужен ПК?</option>
+                            <option value="gaming">Игры</option>
+                            <option value="work">Работа/Офис</option>
+                            <option value="design">Дизайн/Графика</option>
+                            <option value="video">Видеомонтаж</option>
+                            <option value="streaming">Стриминг</option>
+                            <option value="other">Другое</option>
+                        </select>
+                    </div>
+                    
+                    <div class="group width">
+                        <label for="components">Компоненты (желаемые)</label>
+                        <textarea id="components" name="components" rows="4" placeholder="Например: Процессор Intel i7, Видеокарта RTX 4070, 32GB RAM, SSD 1TB..."></textarea>
+                    </div>
+                    
+                    <div class="group">
+                        <label for="cpu">Процессор</label>
+                        <select id="cpu" name="cpu">
+                            <option value="" selected>Не важно</option>
+                            <option value="intel">Intel</option>
+                            <option value="amd">AMD</option>
+                        </select>
+                    </div>
+                    
+                    <div class="group">
+                        <label for="gpu">Видеокарта</label>
+                        <select id="gpu" name="gpu">
+                            <option value="" selected>Не важно</option>
+                            <option value="nvidia">NVIDIA</option>
+                            <option value="amd">AMD Radeon</option>
+                            <option value="integrated">Встроенная</option>
+                        </select>
+                    </div>
+                    
+                    <div class="group width">
+                        <label for="requirements">Особые требования</label>
+                        <textarea id="requirements" name="requirements" rows="3" placeholder="RGB подсветка, водяное охлаждение, определенный корпус..."></textarea>
+                    </div>
+                </div>
+                
+                <div class="grid">
+                    <div class="group width">
+                        <h4>Контактная информация</h4>
+                    </div>
+                    
+                    <div class="group">
+                        <label for="name">Имя *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="group">
+                        <label for="phone">Телефон *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                
+                <div class="form">
+                    <button type="submit" class="submit">Отправить заявку</button>
+                    <p class="note">Мы свяжемся с вами в течение 24 часов для уточнения деталей</p>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
